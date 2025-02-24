@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Twin - Memory Assistant</title>
+    <style>
+        body {
+             font-family: Arial, sans-serif;
+              margin: 0; padding: 0; 
+              background-color: #f8f9fa; 
+            }
+        .navbar { 
+            background-color: #007bff;
+             padding: 15px; 
+             text-align: center; 
+            }
+        .navbar a {
+             color: white;
+              text-decoration: none; 
+              font-size: 18px;
+               margin: 0 15px;
+             }
+        .container { 
+            text-align: center; 
+            padding: 40px;
+         }
+        .button { 
+            display: inline-block;
+             margin: 10px;
+              padding: 12px 20px;
+               background-color: #007bff; 
+               color: white;
+                text-decoration: none; 
+                border-radius: 5px; 
+                font-size: 18px; 
+            }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index2.html">Home</a> |
+        <a href="../memoryassistant/index3.html">Memories</a> |
+        <a href="../reminder/index4.html">Reminders</a> |
+        <a href="../family/index1.html">Family</a>
+    </div>
+
+    <div class="container">
+        <h2>Welcome to Your Memory Assistant</h2>
+        <p>This AI-powered assistant helps recall important people & memories.</p>
+        <a href="../memoryassistant/index3.html" class="button">View Memories</a>
+        <a href="../reminder/index4.html" class="button">View Reminders</a>
+        <a href="../family/index1.html" class="button">View Family</a>
+    </div>
+
+</body>
+</html>
